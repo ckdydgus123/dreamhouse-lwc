@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Update Account Details ..">
+        <lightning-layout>
+            <lightning-layout-item>
+                <lightning-input label="Account Name" value={accName} onchange={handleChanges} class="slds-m-bottom_x-small"></lightning-input>
+                <br/>
+                <lightning-input label="Account Site" value={accSite} onchange={handleChanges} class="slds-m-bottom_x-small"></lightning-input>
+                <br/>
+                <button onclick={updateAccountRecord}>Update</button>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>
