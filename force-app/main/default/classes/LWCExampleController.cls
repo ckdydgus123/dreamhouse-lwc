@@ -1,5 +1,10 @@
 public inherited sharing class LWCExampleController {
 
+    @AuraEnabled(cacheable=true)
+    public static list<ContentVersion> retriveFiles(){
+        return [SELECT Id, Title, FileExtension, ContentDocumentId From ContentVersion];
+    }
+
     @AuraEnabled(Cacheable = true)
     public static List<Account> getAccounts(){
         return [SELECT Id, Name,Industry, Type, Phone, Rating, AccountNumber FROM Account ORDER BY Name LIMIT 10];
