@@ -5,90 +5,36 @@
                 "type": "Account",
                 "referenceId": "AccountRef1"
             },
-            "Name": "Alpha Dynamics",
-            "Type": "Technology Partner",
-            "Phone": "3362227000"
+            "Name": "Wheelworks",
+            "BillingStreet": "480 Trapelo Road",
+            "BillingCity": "Belmont",
+            "BillingState": "MA",
+            "BillingPostalCode": "02478",
+            "BillingCountry": "USA"
         },
         {
             "attributes": {
                 "type": "Account",
                 "referenceId": "AccountRef2"
             },
-            "Name": "Madison Investments",
-            "Type": "Customer - Direct",
-            "Phone": "7227003362"
+            "Name": "Northern Trail Cycling",
+            "BillingStreet": "415 Mission St",
+            "BillingCity": "San Francisco",
+            "BillingState": "CA",
+            "BillingPostalCode": "94105",
+            "BillingCountry": "USA"
         },
         {
             "attributes": {
                 "type": "Account",
                 "referenceId": "AccountRef3"
             },
-            "Name": "Burlington Textiles",
-            "Type": "Customer - Direct",
-            "Phone": "6179658855"
-        },
-        {
-            "attributes": {
-                "type": "Account",
-                "referenceId": "AccountRef4"
-            },
-            "Name": "GenePoint",
-            "Type": "Customer - Direct",
-            "Phone": "7819662255"
-        },
-        {
-            "attributes": {
-                "type": "Account",
-                "referenceId": "AccountRef5"
-            },
-            "Name": "OpenFloor Furniture",
-            "Type": "Customer - Direct",
-            "Phone": "9782554185"
-        },
-        {
-            "attributes": {
-                "type": "Account",
-                "referenceId": "AccountRef6"
-            },
-            "Name": "Express Logistics",
-            "Type": "Customer - Direct",
-            "Phone": "6175289966"
-        },
-        {
-            "attributes": {
-                "type": "Account",
-                "referenceId": "AccountRef7"
-            },
-            "Name": "Jefferson Management",
-            "Type": "Customer - Direct",
-            "Phone": "6179658877"
-        },
-        {
-            "attributes": {
-                "type": "Account",
-                "referenceId": "AccountRef8"
-            },
-            "Name": "Northern Trail Travel",
-            "Type": "Customer - Direct",
-            "Phone": "9782551474"
-        },
-        {
-            "attributes": {
-                "type": "Account",
-                "referenceId": "AccountRef9"
-            },
-            "Name": "United Productions",
-            "Type": "Customer - Direct",
-            "Phone": "6178524569"
-        },
-        {
-            "attributes": {
-                "type": "Account",
-                "referenceId": "AccountRef10"
-            },
-            "Name": "Edge Communications",
-            "Type": "Customer - Direct",
-            "Phone": "4158563255"
+            "Name": "Trailblazers",
+            "BillingStreet": "1095 Avenue of the Americas",
+            "BillingCity": "New York",
+            "BillingState": "NY",
+            "BillingPostalCode": "10036",
+            "BillingCountry": "USA"
         }
     ]
 }
