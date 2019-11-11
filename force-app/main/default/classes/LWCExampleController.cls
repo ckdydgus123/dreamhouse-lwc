@@ -73,5 +73,14 @@ public inherited sharing class LWCExampleController {
             throw new AuraHandledException(ex.getMessage());
         }
     }
+    @AuraEnabled(cacheable=true)
+    public static List<Opportunity> getOppByStage(String stage) {
+        System.debug('Stage Name'+stage);
+        return [SELECT Id, Name ,StageName, CloseDate, Account.Name from Opportunity where StageName = :stage];
+    }
+    @AuraEnabled(cacheable=true)
+    public static list<Opportunity> retriveOpportunities() {
+        return [SELECT Id, Name, Account.Name, Account.owner.name, Owner.Name, CreatedDate FROM Opportunity LIMIT 10];
+    }
 
 }
